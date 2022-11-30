@@ -1,0 +1,24 @@
+question6 = input("During your school holidays, your friends invite you for a overseas trip to Japan ,\n (1) Join the trip Japan, \n (2) Skip the trip and instead have a staycaytion in Singapore? \n Type 1 OR 2"
+if question6 == '1':
+  answer8=input(" You agreed to go for the Japan trip. Would you like to \n (1) Share a BIGGER hotel room with your friends, \n (2) Have a SMALLER hotel room to yourself? \n Type 1 OR 2"
+  if answer8 == '1':
+        print("You agreed to share a room with your friends")
+        time.sleep(2)
+        account_balance=account_balance-
+        print("Your account balance is now $"+ str(account_balance))
+   elif answer8 == '2':
+        print("You have decided to live comfortably in your own hotel room")
+        time.sleep(2)
+        account_balance=account_balance-
+        print("Your account balance is now $"+ str(account_balance))
+    else:
+       print("Invalid Input, Run again\n")
+       exit()
+elif  question6 == '2':
+      print("You have decided to save money on travelling and stay in Singapore")
+else:
+    print("Invalid Input, Run again\n")
+    exit()      
+    
+question7 = input("It's Christmas and your friends are hosting a Christmas party,\n (1) Do you buy gifts for your friends,\n (2) Do you handmake gifts from scratch? \n Type 1 OR 2"
+question8 = input("School is starting and it's your first day at a new school, \n (1) Do you buy a new pair of Nike Air Jordans, \n (2) Wear the pair of sneakers that you got for Christmas? \n Type 1 OR 2"
