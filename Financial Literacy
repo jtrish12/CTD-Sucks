@@ -1,0 +1,90 @@
+question6 = input("During your school holidays, your friends invite you for a overseas trip to Japan ,\n (1) Join the trip Japan, \n (2) Skip the trip and instead have a staycaytion in Singapore? \n Type 1 OR 2"
+if question6 == '1':
+  answer8=input(" You agreed to go for the Japan trip. Would you like to \n (1) Share a BIGGER hotel room with your friends? - $100 , \n (2) Have a SMALLER hotel room to yourself? - $ 250 \n Type 1 OR 2"
+  if answer8 == '1':
+        print("You agreed to share a room with your friends")
+        time.sleep(2)
+        account_balance=account_balance-100
+        print("Your account balance is now $"+ str(account_balance))
+   elif answer8 == '2':
+        print("You have decided to live comfortably in your own hotel room")
+        time.sleep(2)
+        account_balance=account_balance-250
+        print("Your account balance is now $"+ str(account_balance))
+    else:
+       print("Invalid Input, Run again\n")
+       exit()
+elif  question6 == '2':
+      answer9=input(" You decided to save some money and have a staycay in Singapore. To travel around Singapore would you \n (1) Take public transport? - $3, \n (2) Call a Grab car to drive you around? - $25 \n Type 1 OR 2"
+      if answer9 == '1':
+            print("You chose to go to the club")
+            time.sleep(2)
+            account_balance=account_balance- 3
+            print("Your account balance is now $"+ str(account_balance))
+       elif answer9 == '2':
+            print("You chose to go straight home after drinking")
+            time.sleep(2)
+            account_balance=account_balance- 25
+            print("Your account balance is now $"+ str(account_balance))
+        else:
+           print("Invalid Input, Run again\n")
+           exit()
+      
+else:
+    print("Invalid Input, Run again\n")
+    exit()      
+question7 = input("It's almost the end of the year and your friends invite you to go out drinking to celebrate,\n (1) Do you go out to drink with your friends,\n (2) Do you suggest drinking at home instead ? \n Type 1 OR 2"
+if question7 == '1':
+  answer10=input(" You decided to go out to drink with your friends.But the night is still young and your friends suggest going to a club. Would you like to \n (1) Go clubbing with your friends? - $40, \n (2) Go home after drinking? $20- \n Type 1 OR 2"
+  if answer10 == '1':
+        print("You chose to go to the club")
+        time.sleep(2)
+        account_balance=account_balance- 40
+        print("Your account balance is now $"+ str(account_balance))
+   elif answer10 == '2':
+        print("You chose to go straight home after drinking")
+        time.sleep(2)
+        account_balance=account_balance- 20
+        print("Your account balance is now $"+ str(account_balance))
+    else:
+       print("Invalid Input, Run again\n")
+       exit()
+elif  question7 == '2':
+    answer11=input(" You decided to have drinks with your friends at home . Would you like to \n (1) To cook a meal to accompany your drinks? - $5, \n (2) Order pizzas from Pizza Hut? $20- \n Type 1 OR 2"
+                   if answer11 == '1':
+                       print("You chose to cook dinner yourself")
+                       time.sleep(2)
+                       account_balance=account_balance- 5
+                       print("Your account balance is now $"+ str(account_balance))
+                       elif answer11 == '2':
+                           print("You chose to order in pizza from Pizza Hut")
+                           time.sleep(2)
+                           account_balance=account_balance- 20
+                           print("Your account balance is now $"+ str(account_balance))   
+                           else:
+                               print("Invalid Input, Run again\n")
+                               exit() 
+else:
+    print("Invalid Input, Run again\n")
+    exit()      
+question8 = input("School is starting and it's your first day at a new school, \n (1) Do you buy a new pair of Nike Air Jordans, \n (2) Wear the pair of sneakers that you got for Christmas? \n Type 1 OR 2"
+if question8 == '1':
+  answer12=input(" You have decided to buy a new pair of shoes. But on the way to school you stepped in a puddle of mud. Would you like to \n (1) Clean your shoes at home using household prodcuts? - $2, \n (2) Get your shoes professionally cleaned? - $20 \n Type 1 OR 2"
+  if answer12 == '1':
+        print("You chose to clean you shoes by yourself")
+        time.sleep(2)
+        account_balance=account_balance-2
+        print("Your account balance is now $"+ str(account_balance))
+   elif answer12 == '2':
+        print("You chose to get your shoes cleaned by professionals")
+        time.sleep(2)
+        account_balance=account_balance- 20
+        print("Your account balance is now $"+ str(account_balance))
+    else:
+       print("Invalid Input, Run again\n")
+       exit()
+elif  question8 == '2':
+      print("You have decided save money and wear the shoes that your parents bought you for Christmas")
+else:
+    print("Invalid Input, Run again\n")
+    exit()      
